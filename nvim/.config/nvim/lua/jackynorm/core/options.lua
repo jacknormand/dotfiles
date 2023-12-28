@@ -1,8 +1,9 @@
 local opt = vim.opt -- conciseness
 
 -- line numbers
-opt.relativenumber = true 
+opt.relativenumber = false 
 opt.number = true
+opt.signcolumn = "number"
 
 -- tabs indent
 opt.tabstop = 2

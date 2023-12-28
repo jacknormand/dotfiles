@@ -8,7 +8,6 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set number
-set relativenumber 
 set cursorline
 set autoread
 set termguicolors
@@ -20,4 +19,4 @@ set signcolumn="yes"
 set backspace ="indent,eol,start"
 set splitright
 set splitbelow
-colorscheme peachpuff 
+colorscheme desert 
