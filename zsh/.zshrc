@@ -11,5 +11,6 @@ PROMPT="%F{255}%1~%f %B%F{$COLOR}❯❯%f%b "
 eval "$(rbenv init - zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
+export CLICOLOR=1
+export LSCOLORS=Dxfxcxgxbxegedabagacad
 

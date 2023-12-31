@@ -1,7 +1,7 @@
 local opt = vim.opt -- conciseness
 
 -- line numbers
-opt.relativenumber = false 
+opt.relativenumber = true 
 opt.number = true
 opt.signcolumn = "number"
 
