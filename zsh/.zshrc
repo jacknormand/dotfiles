@@ -14,3 +14,7 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export CLICOLOR=1
 export LSCOLORS=Dxfxcxgxbxegedabagacad
 
+
+
+# Load Angular CLI autocompletion.
+# source <(ng completion script)
