@@ -13,7 +13,7 @@ return {
     },
     opts = {
         -- configuration goes here
-      lang = "python",
+      lang = "python3",
       console = {
         open_on_runcode = true, ---@type boolean
 
