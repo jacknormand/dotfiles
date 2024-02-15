@@ -18,3 +18,4 @@ export LSCOLORS=Dxfxcxgxbxegedabagacad
 
 # Load Angular CLI autocompletion.
 # source <(ng completion script)
+export PATH="/usr/local/opt/openjdk@17/bin:$PATH"
