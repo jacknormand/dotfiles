@@ -3,5 +3,4 @@ return {
   'MunifTanjim/nui.nvim',
   'rcarriga/nvim-notify',
   'nvim-lua/plenary.nvim',
-  'mawkler/modicator.nvim',
 }
