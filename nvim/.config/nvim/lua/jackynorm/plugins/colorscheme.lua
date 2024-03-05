@@ -5,11 +5,12 @@ return {
     config = function()
       require('rose-pine').setup({
         variant = "main",
-        disable_background = false,
+        disable_background = true,
       })
 
       -- load the colorscheme here
       vim.cmd([[colorscheme rose-pine]])
+      vim.cmd([[ hi NormalNC guibg=NONE ]])
     end,
 
 --     'Shatur/neovim-ayu',
@@ -20,6 +21,7 @@ return {
 --     overrides = {}, -- A dictionary of group names, each associated with a dictionary of parameters (`bg`, `fg`, `sp` and `style`) and colors in hex.
 -- })
 --       vim.cmd([[colorscheme ayu]])
+--       vim.cmd([[ hi NormalNC guibg=NONE ]])
 --     end,
   },
 }

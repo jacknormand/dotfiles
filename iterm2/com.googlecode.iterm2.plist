@@ -228,7 +228,7 @@
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
-			<real>64</real>
+			<real>48.023326532891453</real>
 			<key>Bold Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -327,7 +327,7 @@
 			<key>Initial Text</key>
 			<string></string>
 			<key>Initial Use Transparency</key>
-			<false/>
+			<true/>
 			<key>Jobs to Ignore</key>
 			<array>
 				<string>rlogin</string>
@@ -807,7 +807,7 @@
 			<key>Title Components</key>
 			<integer>928</integer>
 			<key>Transparency</key>
-			<real>0.0</real>
+			<real>0.10285774393284575</real>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>

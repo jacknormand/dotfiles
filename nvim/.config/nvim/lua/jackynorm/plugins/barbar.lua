@@ -8,7 +8,7 @@ return{
     vim.g.barbar_auto_setup = false 
 
     local map = vim.api.nvim_set_keymap
-    local opts = { noremap = true, silent = true }
+    local opts = { noremap = true, silent = true, }
 
     -- Move to previous/next
     map('n', '<A-,>', '<Cmd>BufferPrevious<CR>', opts)
@@ -51,22 +51,23 @@ return{
     -- :BarbarEnable - enables barbar (enabled by default)
     -- :BarbarDisable - very bad command, should never be used
         
-    
     end,
 
     opts = {
       -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
       -- animation = true,
-      animation = true,
+      animation = false,
       auto_hide = true,
       icons = {
+      buffer_index = true,
       preset = 'default',
       }, 
       sidebar_filetypes = {
         NvimTree = true,
       },
-      -- insert_at_start = true,
+
       -- …etc.
+      
     },
     version = '^1.0.0', -- optional: only update when a new 1.x version is released
     -- set keymaps
