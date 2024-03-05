@@ -1,5 +1,5 @@
-a mess of my dotfiles, wouldnt recommend anyone to use.
-everything here goes in my .config
+a mess of my dotfiles for macos, wouldnt recommend anyone to use.
+everything from .config
 
 ![Screenshot 2024-03-05 at 12 50 32 PM](https://github.com/jacknormand/dotfiles/assets/21299000/e181f509-9803-4914-b165-f46c6c02bb77)
 
