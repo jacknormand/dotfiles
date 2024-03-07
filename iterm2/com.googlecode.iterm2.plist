@@ -886,7 +886,7 @@
 	<key>StretchTabsToFillBar</key>
 	<true/>
 	<key>SwitchPaneModifier</key>
-	<integer>6</integer>
+	<integer>5</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
