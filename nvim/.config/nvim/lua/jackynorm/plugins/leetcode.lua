@@ -13,12 +13,12 @@ return {
     },
 
     require("notify").setup({
-    background_colour = "#000000"
+    -- background_colour = "#000000"
   }),
     opts = {
         -- configuration goes here
        ---@type string
-    background_colour = "#000000",
+    -- background_colour = "#000000",
 
     arg = "leetcode.nvim",
 
@@ -78,7 +78,7 @@ return {
         width = "40%", ---@type lc.size
 
         show_stats = true, ---@type boolean
-        background_colour = "#000000",
+        -- background_colour = "#000000",
     },
 
     hooks = {

@@ -40,7 +40,8 @@ return {
           dashboard.button("f", "   Find config file", ":cd $HOME/dotfiles/nvim/.config | Telescope find_files<CR>"),
           dashboard.button("g", "   Find word", ":Telescope live_grep<CR>"),
           dashboard.button("r", "   Recent", ":Telescope oldfiles<CR>"),
-          dashboard.button("l", "   Lazy", ":Lazy<CR>"),
+          dashboard.button("z", "   Lazy", ":Lazy<CR>"),
+          dashboard.button("l", "   Leetcode", ":Leet<CR>"),
           dashboard.button("q", "   Quit NVIM", ":qa<CR>"),
         }    
 

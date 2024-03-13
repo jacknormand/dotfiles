@@ -14,6 +14,8 @@ source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export CLICOLOR=1
 export LSCOLORS=Dxfxcxgxbxegedabagacad
 
+alias vim="nvim"
+alias vi="nvim"
 
 
 # Load Angular CLI autocompletion.
