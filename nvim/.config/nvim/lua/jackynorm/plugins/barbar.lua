@@ -55,11 +55,10 @@ return{
 
     opts = {
       -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
-      animation = false,
-      animation = false,
+      animation = true,
       auto_hide = true,
       icons = {
-      buffer_index = false,
+      buffer_index = true,
       preset = 'default',
       }, 
       sidebar_filetypes = {

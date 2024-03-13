@@ -226,7 +226,7 @@
 			<key>Blend</key>
 			<real>1</real>
 			<key>Blinking Cursor</key>
-			<false/>
+			<true/>
 			<key>Blur</key>
 			<true/>
 			<key>Blur Radius</key>
@@ -886,7 +886,9 @@
 	<key>StretchTabsToFillBar</key>
 	<true/>
 	<key>SwitchPaneModifier</key>
-	<integer>5</integer>
+	<integer>6</integer>
+	<key>SwitchTabModifier</key>
+	<integer>4</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>1</integer>
 	<key>TabStyleWithAutomaticOption</key>
