@@ -38,6 +38,7 @@ return {
           -- dashboard.button("SPC j", "󰈚   Restore Session", ":SessionRestore<cr>"),
           dashboard.button("e", "   New file", ":ene <BAR> startinsert <CR>"),
           dashboard.button("f", "   Find config file", ":cd $HOME/dotfiles/nvim/.config | Telescope find_files<CR>"),
+          dashboard.button("p", "   Find project file", ":cd $HOME/GitHub/ | Telescope find_files<CR>"),
           dashboard.button("g", "   Find word", ":Telescope live_grep<CR>"),
           dashboard.button("r", "   Recent", ":Telescope oldfiles<CR>"),
           dashboard.button("z", "   Lazy", ":Lazy<CR>"),

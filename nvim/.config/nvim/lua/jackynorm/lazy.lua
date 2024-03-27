@@ -9,10 +9,15 @@ if not vim.loop.fs_stat(lazypath) then
     lazypath,
   })
 end
+if vim.g.neovide then
+ vim.o.guifont = "DejaVuSansM Nerd Font Mono:h16"
+ vim.g.neovide_remember_window_size = true
+  vim.g.neovide_cursor_vfx_mode = "pixiedust"
+end
 vim.opt.rtp:prepend(lazypath)
 
 
-require("lazy").setup({ { import = "jackynorm.plugins" }, }, {
+require("lazy").setup({ { import = "jackynorm.plugins" },{ import = "jackynorm.plugins.lsp" } }, {
   install = {
     colorscheme = { "rose-pine" },
   },
