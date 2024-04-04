@@ -1,7 +1,10 @@
+vim.cmd("let g:netrw_liststyle = 3")
+
 local opt = vim.opt -- conciseness
+vim.opt.fillchars:append('vert:▎')
 
 -- line numbers
-opt.relativenumber = true 
+opt.relativenumber = true
 opt.number = true
 opt.signcolumn = "number"
 

@@ -1,6 +1,10 @@
 return {
     "nvim-treesitter/nvim-treesitter",
+    event = { "BufReadPre", "BufNewFile"},
     build = ":TSUpdate",
+    dependencies = {
+      "window/nvim-tv-autotag",
+    }, 
     config = function () 
       local configs = require("nvim-treesitter.configs")
 

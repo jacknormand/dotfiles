@@ -28,7 +28,7 @@ return{
     map('n', '<A-9>', '<Cmd>BufferGoto 9<CR>', opts)
     map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
     -- Pin/unpin buffer
-    map('n', '<C-p>', '<Cmd>BufferPin<CR>', opts)
+    map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
     -- Close buffer
     map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
     -- Wipeout buffer
@@ -40,7 +40,7 @@ return{
     --                 :BufferCloseBuffersLeft
     --                 :BufferCloseBuffersRight
     -- Magic buffer-picking mode
-    map('n', '<A-p>', '<Cmd>BufferPick<CR>', opts)
+    map('n', '<A-f>', '<Cmd>BufferPick<CR>', opts)
     -- Sort automatically by...
     map('n', '<Space>bb', '<Cmd>BufferOrderByBufferNumber<CR>', opts)
     map('n', '<Space>bd', '<Cmd>BufferOrderByDirectory<CR>', opts)
@@ -55,7 +55,7 @@ return{
 
     opts = {
       -- lazy.nvim will automatically call setup for you. put your options here, anything missing will use the default:
-      animation = true,
+      animation = false,
       auto_hide = true,
       icons = {
       buffer_index = true,
@@ -72,3 +72,4 @@ return{
     -- set keymaps
 
 }
+

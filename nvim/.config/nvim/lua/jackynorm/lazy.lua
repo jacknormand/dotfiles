@@ -12,7 +12,11 @@ end
 if vim.g.neovide then
  vim.o.guifont = "DejaVuSansM Nerd Font Mono:h16"
  vim.g.neovide_remember_window_size = true
-  vim.g.neovide_cursor_vfx_mode = "pixiedust"
+  -- vim.g.neovide_cursor_vfx_mode = "pixiedust"
+ vim.g.neovide_transparency = 0.9
+ vim.g.neovide_window_blurred = true
+vim.g.neovide_input_macos_alt_is_meta = true
+ 
 end
 vim.opt.rtp:prepend(lazypath)
 

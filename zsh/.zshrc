@@ -1,5 +1,17 @@
+# function git_branch_name()
+# {
+#   branch=$(git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
+#   if [[ $branch == "" ]];
+#   then
+#     :
+#   else
+#     echo '- ('$branch')'
+#   fi
+# }
 COLOR=$(( $RANDOM % 256 + 0 ))
-PROMPT="%F{255}%1~%f %B%F{$COLOR}❯❯%f%b "
+# COLOR2=$(( $RANDOM % 256 + 0 ))
+# setopt prompt_subst
+PROMPT="%B[%F{$COLOR}%2~%f]%b %B%F{$COLOR}❯❯%f%b "
 #PROMPT="%F{255}%1~%f %F{196}▶%f%F{208}▶%f%F{226}▶%f "
 #URXVT_INSTANCES=0
 #for pid in $(pidof zsh); do
