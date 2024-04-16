@@ -9,9 +9,9 @@
 #   fi
 # }
 COLOR=$(( $RANDOM % 256 + 0 ))
-# COLOR2=$(( $RANDOM % 256 + 0 ))
+COLOR2=$(( $RANDOM % 256 + 0 ))
 # setopt prompt_subst
-PROMPT="%B[%F{$COLOR}%2~%f]%b %B%F{$COLOR}❯❯%f%b "
+PROMPT="%B[%F{$COLOR}%2~%f]%b %B%F{$COLOR2}❯❯%f%b "
 #PROMPT="%F{255}%1~%f %F{196}▶%f%F{208}▶%f%F{226}▶%f "
 #URXVT_INSTANCES=0
 #for pid in $(pidof zsh); do
